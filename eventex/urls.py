@@ -4,8 +4,8 @@ from django.conf.urls import patterns, include, url
 # from django.contrib import admin
 # admin.autodiscover()
 
-urlpatterns = patterns('eventex.core.views',
-	url(r'^$','homepage',name='homepage'),
+urlpatterns = patterns('eventex.core.views', 
+	url(r'^$', 'homepage', name='homepage'),
     # Examples:
     # url(r'^$', 'eventex.views.home', name='home'),
     # url(r'^eventex/', include('eventex.foo.urls')),
